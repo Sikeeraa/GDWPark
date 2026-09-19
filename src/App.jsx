@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "./App.css";
+import logo from "./assets/gdwpark-logo.png";
 
 function App() {
   const whatsapp = "5511998967873";
@@ -436,12 +437,7 @@ function App() {
       >
         <div className="logo">
 
-          {/* LOGO À ESQUERDA */}
-          <img
-            src="/src/assets/gdwpark-logo.png"
-            alt="GDW Park"
-            className="logo-image"
-          />
+          <img src={logo} alt="GDW Park" className="logo-image" />
 
           {/* GDW PARK MANTIDO */}
           <div className="logo-text">
@@ -1010,11 +1006,7 @@ function App() {
 
         <div className="logo">
 
-          <img
-            src="/src/assets/gdwpark-logo.png"
-            alt="GDW Park"
-            className="logo-image"
-          />
+          <img src={logo} alt="GDW Park" className="logo-image" />
 
           <div className="logo-text">
 
