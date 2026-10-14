@@ -2062,11 +2062,9 @@ function App() {
 
 
 
-            <p>
-
-              Sábados: Jardim Paulista 08:00–17:00; Vila Mariana e Bom Retiro 09:00–17:00
-
-            </p>
+            <p>Sábados: Jardim Paulista 08:00–17:00</p>
+            <p>Bom Retiro 09:00–17:00</p>
+            <p>Vila Mariana 09:00–17:00</p>
 
           </div>
 
